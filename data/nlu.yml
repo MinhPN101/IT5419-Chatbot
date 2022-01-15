@@ -1,0 +1,186 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+
+- intent: chao_tuvan
+  examples: |
+    - chào shop, mình muốn mua quần áo, shop tư vấn giúp mình được không
+    - mình muốn tìm hiểu vài mẫu quần áo, áo phông cho mùa hè năm nay
+    - chào
+    - xin chào
+    - tư vấn cho mình vài mẫu đang hot
+
+- intent: hoi_quanao
+  examples: |
+    - shop bán những loại quần áo nào nhỉ
+    - cửa hàng có những mẫu quần áo nào
+
+- intent: hoi_gia
+  examples: |
+    - giá thế nào
+    - giá bao nhiêu
+    - món này bao nhiêu
+    - được giảm giá không
+    - được sale không
+    - sale
+    - sale bao nhiêu
+    - món nào đang sale
+    - dưới 500k
+    - dưới 200k
+
+- intent: hoi_mausac
+  examples: |
+    - màu
+    - màu sắc
+    - có những màu nào
+    - còn màu đỏ/đen/trắng/xanh/vàng không
+
+- intent: hoi_size
+  examples: |
+    - size
+    - có những size nào
+    - vừa, rộng, chật, ngắn, dài
+    - tôi cao 1m70 nặng 60kg
+    - cao, nặng
+
+- intent: hoi_diachi
+  examples: |
+    - địa chỉ shop ở đâu
+    - shop ở đâu nhỉ
+    - nhà mình ở khu nào
+    - địa chỉ
+
+- intent: hoi_giaohang
+  examples: |
+    - ship
+    - giao hàng
+    - COD
+
+- intent: hoi_payment
+  examples: |
+    - thanh toán
+    - thẻ
+    - tiền mặt
+    - thanh toán online
+    - thanh toán khi nhận hàng
+
+- intent: cac_loai_order
+  examples: |
+    - tôi có thể đặt hàng bằng cách nào
+    - các kênh mua hàng
+    - mua hàng bằng cách nào
+
+- intent: khach_order
+  examples: |
+    - cho mình đặt mua sản phẩm X nhé
+
+- intent: detail_order
+  examples: |
+    - Sản phẩm X, số lượng: m, màu sắc: c, size: s. Địa chỉ giao hàng: a, SDT người nhận: 123, tên người nhận: name
+
+
+- intent: camon
+  examples: |
+    - cảm ơn shop nhé
+    - tạm biệt
+    - cảm ơn
+    - thank you
+    - OK
+
+
+
+
+
+    
+
+
